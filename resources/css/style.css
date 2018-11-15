@@ -13,7 +13,6 @@ header {
   top: 0;
 }
 
-
 .logo {
   display: flex;
   flex-grow: 1;
@@ -25,6 +24,7 @@ header {
 .colmar {
 color: black;
 }
+
 .academy {
   color: grey;
 }
@@ -44,11 +44,25 @@ nav a {
 }
 
 
-.container {
+.main .container {
   display: flex;
-  background-color: pink;
+  background-color: whitesmoke;
   height: 500px;
   color: black;
-  justify-content: flex-end;
   align-items: center;
+}
+
+.container img {
+  height: 300px;
+}
+
+.text {
+  display: flex;
+  
+}
+
+.info {
+  display: block;
+  background-color: black;
+  color: white;
 }
