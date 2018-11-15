@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  height: 64px;
+  width: 100%;
+  top: 0;
+}
+
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  height: 32px;
+  margin-left: 24px;
+}
+
+.colmar {
+color: black;
+}
+.academy {
+  color: grey;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 24px;
+}
+
+nav span {
+  margin-right: 16px;
+}
+
+nav a {
+  color: black;
+}
+
+
+.container {
+  display: flex;
+  background-color: pink;
+  height: 500px;
+  color: black;
+  justify-content: flex-end;
+  align-items: center;
+}
