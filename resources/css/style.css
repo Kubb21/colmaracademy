@@ -77,3 +77,53 @@ background-color: grey;
   margin: 0 auto;
   padding-top: 20px;
 }
+
+
+.column-two {
+  background-color: thistle;
+  display: flex;
+
+}
+
+ .image-content img {
+  width: 60%;
+  margin: 32px 24px;
+
+}
+
+.narrative {
+  width: 60%;
+  margin: 32px 24px;
+  padding-bottom: 32px;
+}
+
+.narrative h2 {
+  padding-bottom: 24px;
+}
+
+--------
+
+ .flex-container{
+  display: flex;
+}
+
+
+.box {
+background-color: lightgrey;
+display: flex;
+height: 150px;
+border-left: thin solid grey;
+position: relative;
+right: 300px;
+top: 32px;
+}
+
+.box img {
+  width: 35%;
+  height: auto;
+}
+
+.box .info-narrative {
+  display: block;
+  margin: 0 20px;
+}
