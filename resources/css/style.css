@@ -302,6 +302,7 @@ footer {
 
 
 @media only screen and (max-width: 480px) {
+
   .stories {
     background-size: cover;
     display: block;
@@ -327,5 +328,44 @@ footer {
     width: 100%;
     margin: 0 auto;
   }
+
+  .image-content {
+    display: none;
+  }
+
+  .narrative {
+    display: none;
+  }
+
+  .lead {
+    display: block;
+    padding-bottom: 200px;
+  }
+
+  .lead img {
+    width: 40%;
+  }
+
+  .info-narrative {
+    margin-bottom: 30px;
+  }
+
+  .courses-info {
+    display: block;
+
+  }
+
+  .course {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 45%;
+  }
+
+  .course img,
+  .description p {
+    display: none;
+  }
+
+
 
 }
