@@ -304,10 +304,28 @@ footer {
 @media only screen and (max-width: 480px) {
   .stories {
     background-size: cover;
+    display: block;
 
   }
+  .story {
+    flex-direction: column;
+
+  }
+
+.text {
+  position: relative;
+  bottom: 124px;
+  width: 100%;
+  padding-top: 32px;
+}
+
   .text-content {
-    width: 90%;
     flex-direction: column;
   }
+
+  .text-content img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
 }
