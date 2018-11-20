@@ -366,6 +366,34 @@ footer {
     display: none;
   }
 
+  .exhibit h3
+ {
+    display: none;
+  }
+
+  .exhibit p {
+    display: none;
+  }
+
+  .thesis-content {
+    display: block;
+  }
+
+  .exhibit video {
+  justify-content: center;
+  }
+
+  .exhibits {
+    display: none;
+  }
+
+  .final {
+    display: block;
+  }
+
+  .terms {
+    display: none;
+  }
 
 
 }
