@@ -47,6 +47,10 @@ nav a {
   color: black;
 }
 
+.mobile {
+  display: none;
+}
+
 .stories  {
   display: flex;
   background-color: whitesmoke;
@@ -269,4 +273,41 @@ footer {
 .terms {
   float: right;
   padding-right: 24px;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    height: 64px;
+
+  }
+  .actions {
+    display: none;
+  }
+
+  .mobile  {
+    display: flex;
+  }
+
+  .mobile img {
+    padding-right: 50px;
+  }
+
+  .colmar,
+  .academy {
+    display: none;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  .stories {
+    background-size: cover;
+
+  }
+  .text-content {
+    width: 90%;
+    flex-direction: column;
+  }
 }
