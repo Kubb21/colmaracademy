@@ -268,3 +268,17 @@ width: 40%;
   padding: 16px;
 
 }
+
+footer {
+  background-color: whitesmoke;
+  color: black;
+  border: thin silver solid;
+  height: 64px;
+  padding-top: 16px;
+  padding-left: 24px;
+}
+
+.terms {
+  float: right;
+  padding-right: 24px;
+}
