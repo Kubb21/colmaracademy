@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link rel="stylesheet" href="resources/css/reset.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
   </head>
   <body>
     <header>
@@ -15,22 +16,25 @@
         <div class="academy">ACADEMY</div>
       </div>
         <nav class="actions">
-          <span><a href="#">On Campus</a></span>
-          <span><a href="#">Online</a></span>
+          <span><a href="#info-narrative" alt="moves to info-narrative">On Campus</a></span>
+          <span><a href="#courses" alt="moves to course section">Online</a></span>
           <span><a href="#">For companies</a></span>
           <span><a href="#">Sign in</a></span>
+          <span><i class="fa fa-facebook"></i></span>
         </nav>
-        <nav class="mobile">
-          <span><a href="#"><img src="resources/images/ic-on-campus.svg" alt="Student's desk"></a></span>
-          <span><a href="#"><img src="resources/images/ic-online.svg" alt="Computer monitor logo"></a></span>
+        <nav class="mobile" role="presentation">
+          <span><a href="#info.narrative"><img src="resources/images/ic-on-campus.svg" alt="Student's desk"></a></span>
+          <span><a href="#courses"><img src="resources/images/ic-online.svg" alt="Computer monitor logo"></a></span>
           <span><a href="#"><img src="resources/images/ic-on-campus.svg" alt="Person logo"></a></span>
         </nav>
     </header>
 
+    <!-- Learn something new -->
+
     <div class="stories">
       <div class="story">
         <div class="text-content">
-          <img src="resources/images/banner.jpg" alt="">
+          <img src="resources/images/banner.jpg" alt="Girl brainstorming">
         </div>
       </div>
 
@@ -39,7 +43,7 @@
           <h2>Learn something new everyday</h2>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
         </div>
-        <div class="info">Start here!</div>
+        <div class="info"><a href="#final">Start here!</a></div>
      </div>
    </div>
 
@@ -56,9 +60,9 @@
   <div class="section">
     <div class="lead">
       <img src="resources/images/information-orientation.jpg" alt="People walking">
-      <div class="info-narrative">
+      <div id="info-narrative">
         <h3>Orientation date</h3>
-        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+        <p aria-label="Date and time">Tue 10/11 & Wed 10/12: 8am-3pm</p>
         <a href="#">Read more</a>
       </div>
     </div>
@@ -66,7 +70,7 @@
       <img src="resources/images/information-campus.jpg" alt="People walking">
       <div class="info-narrative">
         <h3>Our campus</h3>
-        <p>Find which campus is close by you</p>
+        <p aria-label="Location of a campus">Find which campus is close by you</p>
         <p><a href="#">Read more</a></p>
       </div>
     </div>
@@ -81,10 +85,9 @@
   </div>
 </div>
 
-
 <!-- courses -->
 
-<div class="courses">
+<div id="courses">
   <h1>Start Learning</h1>
 <div class="courses-info">
   <div class="course">
@@ -144,7 +147,7 @@
 
 <!-- Thesis -->
 
-<div class="final">
+<div id="final">
   <h1>Thesis exhibit</h1>
   <div class="thesis-content">
     <div class="exhibit">
@@ -171,6 +174,8 @@
       </div>
     </div>
   </div>
+
+  <!-- Footer -->
 
   <footer>
     <span>&copy 2016 Colmar Academy. All rights reserved</span>

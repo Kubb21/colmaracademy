@@ -7,6 +7,8 @@ body {
     margin: 0 auto;
 }
 
+/* Nav */
+
 header {
   display: flex;
   flex-direction: row;
@@ -51,6 +53,8 @@ nav a {
   display: none;
 }
 
+/* Learn Something New */
+
 .stories  {
   display: flex;
   background-color: whitesmoke;
@@ -72,7 +76,7 @@ text-align: center;
 margin-top: 120px;
 height: 220px;
 width: 320px;
-background-color: grey;
+background-color: silver;
 }
 
 .info {
@@ -84,8 +88,19 @@ background-color: grey;
   text-align: center;
   margin: 0 auto;
   padding-top: 20px;
+  transition-property: background-color;
+  transition-duration: 750ms;
 }
 
+.info a {
+  color: white;
+}
+
+.info:hover {
+  background-color: silver;
+}
+
+/* Info */
 
 .column-two {
   background-color: thistle;
@@ -99,7 +114,6 @@ background-color: grey;
 
 .image-content img {
   width: 100%;
-
 }
 
 .narrative {
@@ -112,12 +126,10 @@ background-color: grey;
   margin-bottom: 24px;
 }
 
-
 .section {
   width 40%;
   display: flex;
   flex-direction: column;
-
 }
 
 .lead {
@@ -128,7 +140,6 @@ background-color: grey;
   border-left: thin silver solid;
   border-bottom: thick silver solid;
 }
-
 
 .lead img {
   width: 35%;
@@ -142,18 +153,21 @@ background-color: grey;
 
 .lecture {
   background-color: silver;
+  transition: color 750ms ease-in 750ms;
 }
 
-
+.lecture:hover {
+  background-color: whitesmoke;
+}
 
 /* Courses */
 
-.courses {
+.#courses {
   background-color: whitesmoke;
   padding: 32px 72px;
 }
 
-.courses h1 {
+#courses h1 {
   text-align: center;
 }
 
@@ -170,6 +184,11 @@ width: 30%;
 background: silver;
 margin-right: 32px;
 margin-bottom: 32px;
+transition: color 750ms ease-in 750ms;
+}
+
+.course:hover {
+background-color: whitesmoke;
 }
 
 .course img {
@@ -188,7 +207,6 @@ margin-bottom: 32px;
   padding-bottom: 3px;
 }
 
-
 .description p {
   padding-left: 16px;
 }
@@ -200,12 +218,12 @@ margin-bottom: 32px;
 
 /* Thesis Exhibit */
 
-.final {
+#final {
   background-color: thistle;
   padding-top: 32px;
 }
 
-.final h1 {
+#final h1 {
   text-align: center;
   padding-bottom: 32px;
 }
@@ -223,25 +241,20 @@ margin-bottom: 32px;
 
 .exhibit video {
   max-width: 100%;
-
 }
 
 .exhibits {
 flex-direction: column;
 width: 40%;
-
 }
 
 .software {
   display: flex;
   align-items: center;
-
 }
 
 .software img {
   width: 35%;
-
-
 }
 
 .fisma {
@@ -254,12 +267,18 @@ width: 40%;
 
 .empire {
   background-color: silver;
+  transition: color 750ms ease-in 750ms;
+}
+
+.empire:hover {
+  background-color: whitesmoke;
 }
 
 .empire img {
   padding: 16px;
-
 }
+
+/* Footer */
 
 footer {
   background-color: whitesmoke;
@@ -275,10 +294,11 @@ footer {
   padding-right: 24px;
 }
 
+/* Mobile */
+
 @media only screen and (max-width: 480px) {
   header {
     height: 64px;
-
   }
   .actions {
     display: none;
@@ -299,18 +319,13 @@ footer {
 
 }
 
-
-
 @media only screen and (max-width: 480px) {
-
   .stories {
     background-size: cover;
     display: block;
-
   }
   .story {
     flex-direction: column;
-
   }
 
 .text {
@@ -352,7 +367,6 @@ footer {
 
   .courses-info {
     display: block;
-
   }
 
   .course {
@@ -366,8 +380,7 @@ footer {
     display: none;
   }
 
-  .exhibit h3
- {
+  .exhibit h3 {
     display: none;
   }
 
@@ -387,13 +400,11 @@ footer {
     display: none;
   }
 
-  .final {
+  #final {
     display: block;
   }
 
   .terms {
     display: none;
   }
-
-
 }
