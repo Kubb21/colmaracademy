@@ -317,9 +317,16 @@ footer {
     display: none;
   }
 
-}
+  .empire {
+    background-color: silver;
+    transition: color 750ms ease-in 750ms;
+  }
 
-@media only screen and (max-width: 480px) {
+  .empire:hover {
+    background-color: whitesmoke;
+  }
+
+
   .stories {
     background-size: cover;
     display: block;
